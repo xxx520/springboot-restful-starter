@@ -54,3 +54,18 @@ SpringBoot RESTful API 脚手架
 ## License
 
 [MIT](./LICENSE)
+
+## url get
+@auth
+http://localhost:8081/v1/user/list
+
+http://localhost:8081/v1/user/1
+
+http://localhost:8081/v1/swift_upload
+## 文件上传方式
+	1，common fileupload上传（缓存本地或内存）
+	2，自己解析request
+		multipart 解析
+	3，websocket上传
+	4，
+	
